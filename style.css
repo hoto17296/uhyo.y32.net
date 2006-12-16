@@ -1,0 +1,155 @@
+/*--------------------------------------------------
+    UHYOO! default style
+                        http://uhyo.y32.net/
+--------------------------------------------------*/
+
+html {
+	scrollbar-face-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #7799ff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-3dlight-color: #7799ff;
+	scrollbar-darkshadow-color: #7799ff;
+}
+
+a:link { color: #666666; text-decoration: none; }
+a:visited { color: #666666; text-decoration: none; }
+a:hover { color: #7799FF; text-decoration: underline overline; }
+a:active { color: #7799FF; text-decoration: underline overline; }
+
+body {
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN";
+	background: url('./file/back.gif');
+	margin: 0;
+	text-align: center;
+}
+
+input,select,textarea {
+	color: #7799ff;
+	background-color: #ffffff;
+	border: 1px #7799ff solid;
+}
+
+hr { 
+background-color: #7799ff;
+color: #7799ff;
+border: none;
+height: 1px;
+}
+
+#head {
+	width: 719px;
+	height: 70px;
+	background: url(./file/blue.jpg) #ffffff;
+	border-width: 0px 1px;
+	border-color: #7799ff;
+	border-style: solid;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#head img {
+	margin: 5px 5px 0px;
+}
+
+#count {
+	font-weight: bold;
+	color: #4466dd;
+	width: 400px;
+	display: inline;
+}
+
+#menu {
+	width: 720px;
+	border-left: 1px #7799ff solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu li {
+	list-style:none;
+	float:left;
+}
+
+#menu li a {
+	display: block;
+	height: 20px;
+	width: 89px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+	float: left;
+	padding-top: 2px;
+	border-top: 1px #7799ff solid;
+	border-right: 1px #7799ff solid;
+}
+
+#menu li a.ac {
+	border-bottom: 1px #ffffff solid;
+}
+
+#menu li a.na {
+	border-bottom: 1px #7799ff solid;
+}
+
+#menu li a:link {
+	background-color: #ffffff;
+	color: #7799ff;
+}
+
+#menu li a:visited {
+	background-color: #ffffff;
+	color: #7799ff;
+}
+
+#menu li a:hover {
+	background-color: #eeeeff;
+	color: #7799ff;
+}
+
+#menu li a:active {
+	background-color: #eeeeff;
+	color: #7799ff;
+}
+
+#main {
+	background-color: #ffffff;
+	width: 659px;
+	height: 100%;
+	border-width: 0px 1px;
+	border-color: #7799ff;
+	border-style: solid;
+	text-align: left;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#box {
+	width: 250px;
+	height: 40px;
+	float: left;
+	border: 1px #7799ff solid;
+	overflow: auto;
+	padding: 5px;
+}
+
+#copy {
+	text-align: center;
+	font-size: 13px;
+}
+
+.div1 {
+	border-bottom: 1px #7799ff solid;
+	border-left: 10px #7799ff solid;
+	padding: 3px 10px;
+	font-weight: bold;
+}
+
+.div2 {
+	margin: 20px 30px;
+	font-size: 13px;
+}
